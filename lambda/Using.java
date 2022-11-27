@@ -1,3 +1,5 @@
+package lambda;
+
 public class Using {
     public static void main(String[] args) {
         ServiceInterface iS;
@@ -10,7 +12,7 @@ public class Using {
 
         iS.executes(10);
 
-//        ServiceInterface iS2 = new ServiceInterface() {
+//        lambda.ServiceInterface iS2 = new lambda.ServiceInterface() {
 //            @Override
 //            public void executes() {
 //                System.out.println("Executing other logic...");
